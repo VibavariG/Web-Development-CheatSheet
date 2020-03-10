@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Reference Cheatsheet</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <h1>HTML Reference Cheatsheet</h1>
+    </header>
+    <section>
+        <div class="tablehead">
+            <h2>Basic HTML Tags</h2>
+        </div>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Attributes</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="tag">&lt;p&gt;</span></td>
+                        <td></td>
+                        <td>Paragraph</td>
+                        <td>Defines a Paragraph</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;div&gt;</span></td>
+                        <td>class, id</td>
+                        <td>Division</td>
+                        <td>Divides off a section of code</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;a&gt;</span></td>
+                        <td>target, href</td>
+                        <td>Anchor</td>
+                        <td>Used to link to other locations, <strong>target="_blank"</strong> for new tab</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;ul&gt;</span></td>
+                        <td></td>
+                        <td>Unordered list</td>
+                        <td>Lists elements in bullet points</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;ol&gt;</span></td>
+                        <td></td>
+                        <td>Ordered list</td>
+                        <td>Lists elements in numbers or some ordered way</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;li&gt;</span></td>
+                        <td></td>
+                        <td>List</td>
+                        <td>Used to define every item in an ordered or undordered list</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;span&gt;</span></td>
+                        <td></td>
+                        <td>Span</td>
+                        <td>To apply some CSS to a very small part of text.</td>
+                    </tr>
+                    
+                    <tr>
+                        <td><span class="tag">&lt;em&gt;</span></td>
+                        <td></td>
+                        <td>Emphasize</td>
+                        <td>Makes text italicized</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;strong&gt;</span></td>
+                        <td></td>
+                        <td>Strong</td>
+                        <td>Makes text bold</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;br&gt;</span></td>
+                        <td></td>
+                        <td>Break</td>
+                        <td>Works like endl</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <br>
+    <section>
+        <div class="tablehead">
+            <h2>Multimedia Tags</h2>
+        </div>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Attributes</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="tag">&lt;img&gt;</span></td>
+                        <td>src, alt</td>
+                        <td>Image</td>
+                        <td>Adds an image, self closing.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;video&gt;</span></td>
+                        <td>src, controls, loop, autoplay</td>
+                        <td>Video</td>
+                        <td>Adds a video, content will be diplayed if video not visible</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;audio&gt;</span></td>
+                        <td>controls, autoplay</td>
+                        <td>Audio</td>
+                        <td>Inserts audio file</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;source&gt;</span></td>
+                        <td>src, type="audio/mp3"</td>
+                        <td>Source</td>
+                        <td>Adds source for audi, used inside &lt;audio&gt;</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;embed&gt;</span></td>
+                        <td>src</td>
+                        <td>Embed</td>
+                        <td>Can embed any media content</td>
+                    </tr>
+                    
+                </tbody>
+            </table>        
+        </div>
+    </section>
+    <section>
+        <div class="tablehead">
+            <h2>Table Tags</h2>
+        </div>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Attributes</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="tag">&lt;table&gt;</span></td>
+                        <td></td>
+                        <td>Table</td>
+                        <td>The wrapper element for all HTML tables.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;thead&gt;</span></td>
+                        <td></td>
+                        <td>Table Head</td>
+                        <td>The set of rows defining the column headers in a table.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;tbody&gt;</span></td>
+                        <td></td>
+                        <td>Table Body</td>
+                        <td>The set of rows containing actual table data.</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="tag">&lt;tr&gt;</span></td>
+                        <td></td>
+                        <td>Row</td>
+                        <td>Defines an entire row of the table</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;th&gt;</span></td>
+                        <td>rowspan, colspan</td>
+                        <td>Head</td>
+                        <td>Usually the column heads in a table. Bold</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="tag">&lt;td&gt;</span></td>
+                        <td>rowspan, colspan</td>
+                        <td>Table Data</td>
+                        <td>Cell contents</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;tfoot&gt;</span></td>
+                        <td></td>
+                        <td>Table Footer</td>
+                        <td>Contains the footer of the table</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section>
+        <div class="tablehead">
+            <h2>Form Tags</h2>
+        </div>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Attributes</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="tag">&lt;form&gt;</span></td>
+                        <td>action, method</td>
+                        <td>Form</td>
+                        <td>Wrapper element for all forms, <strong>action</strong>- where to send, <strong>method</strong>- way of sending</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;label&gt;</span></td>
+                        <td>for</td>
+                        <td>Label</td>
+                        <td>To properly identify an input, <strong>for</strong> = id of input</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;input&gt;</span></td>
+                        <td>type, name, id, value</td>
+                        <td>Input</td>
+                        <td>Tpye takes values-<br> <strong>password<br> range</strong> (min, max, step)<strong><br> submit<br> text</strong> (minlength, maxlength, pattern)<br><strong>number</strong> (min, max)<br><strong> radio<br> checkbox</strong></td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;textarea&gt;</span></td>
+                        <td>rows, cols</td>
+                        <td>Input</td>
+                        <td>To accept a multiple line input</td>
+                    </tr>
+                </tbody>
+            </table>        
+        </div>
+    </section>
+    <section>
+        <div class="tablehead">
+            <h2>Semantic Tags</h2>
+        </div>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Attributes</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="tag">&lt;header&gt;</span></td>
+                        <td></td>
+                        <td>Header</td>
+                        <td>Defines a header</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;footer&gt;</span></td>
+                        <td></td>
+                        <td>Footer</td>
+                        <td>Defines a Footer</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;nav&gt;</span></td>
+                        <td></td>
+                        <td>Navigation</td>
+                        <td>Defines a Menu</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;main&gt;</span></td>
+                        <td></td>
+                        <td>Main</td>
+                        <td>Defines Content of page</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;article&gt;</span></td>
+                        <td></td>
+                        <td>Article</td>
+                        <td>Content that makes sense on its own</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;section&gt;</span></td>
+                        <td></td>
+                        <td>Section</td>
+                        <td>Content with the same theme</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;aside&gt;</span></td>
+                        <td></td>
+                        <td>Aside</td>
+                        <td>Additional information</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;figure&gt;</span></td>
+                        <td></td>
+                        <td>Figure</td>
+                        <td>Encapsulates media - image</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;figcaption&gt;</span></td>
+                        <td></td>
+                        <td>Figure Caption</td>
+                        <td>Inside &lt;figure&gt;, defines the caption of the image</td>
+                    </tr>
+
+                </tbody>
+            </table>        
+        </div>
+    </section>
+    <br>
+  
+  </body>
+</html>
+
+  

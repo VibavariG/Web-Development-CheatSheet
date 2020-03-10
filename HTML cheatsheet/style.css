@@ -1,0 +1,37 @@
+body{
+    background-color: linen;
+    font-family:Arial, Helvetica, sans-serif
+}
+header{
+    text-align: center;
+}
+
+.tablehead{
+    text-align: center;
+    color:goldenrod
+}
+
+table{
+    border:2px solid gold;
+    margin:0 auto;
+    width:760px;
+}
+th{
+    background-color: gold;
+}
+.tag{
+    background-color:khaki;
+    font-family: monospace;
+    font-size: 13px;
+    
+}
+td,th{
+    border-top: 1px solid gold;
+    border-left: 1px solid gold;
+    margin: 0px;
+    padding:2px 5px 2px 5px;
+}
+
+td{
+    font-size: 16px;
+}
